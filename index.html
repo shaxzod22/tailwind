@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <title>3-lesson</title>
+  </head>
+  <body>
+    <header class="header pb-6">
+      <div
+        class="lg:px-8 px-16 py-8 container mx-auto flex justify-between w-100 items-center"
+      >
+        <a class="font-bold text-3xl" href="./index.html">Brand</a>
+
+        <div class="header__navbar hidden lg:flex gap-7 items-center">
+          <ul class="flex gap-20">
+            <li class="">
+              <a
+                class="hover:text-blue-400"
+                href="https://tailwindcomponents.com/component/saas-landing-page/landing#"
+                >Home</a
+              >
+            </li>
+            <li class="">
+              <a
+                class="hover:text-blue-400"
+                href="https://tailwindcomponents.com/component/saas-landing-page/landing#"
+                >Components</a
+              >
+            </li>
+            <li class="">
+              <a
+                class="hover:text-blue-400"
+                href="https://tailwindcomponents.com/component/saas-landing-page/landing#"
+                >Pricing</a
+              >
+            </li>
+            <li class="">
+              <a
+                class="hover:text-blue-400"
+                href="https://tailwindcomponents.com/component/saas-landing-page/landing#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+
+          <button
+            class="bg-blue-600 text-white font-semibold py-2 px-4 rounded"
+          >
+            Get Started
+          </button>
+        </div>
+
+        <div class="header__burger lg:hidden inline-block">
+          <ul class="flex flex-col gap-1 cursor-pointer">
+            <li class="bg-slate-600 w-4 h-1"></li>
+            <li class="bg-slate-600 w-4 h-1"></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="px-5 container hidden header__modal w-100 mx-auto">
+        <div class="header__navbar flex flex-col gap-7 items-start">
+          <ul class="flex flex-col items-start gap-5">
+            <li class="">
+              <a
+                class="hover:text-blue-400 text-slate-500"
+                href="https://tailwindcomponents.com/component/saas-landing-page/landing#"
+                >Home</a
+              >
+            </li>
+            <li class="">
+              <a
+                class="hover:text-blue-400 text-slate-500"
+                href="https://tailwindcomponents.com/component/saas-landing-page/landing#"
+                >Components</a
+              >
+            </li>
+            <li class="">
+              <a
+                class="hover:text-blue-400 text-slate-500"
+                href="https://tailwindcomponents.com/component/saas-landing-page/landing#"
+                >Pricing</a
+              >
+            </li>
+            <li class="">
+              <a
+                class="hover:text-blue-400 text-slate-500"
+                href="https://tailwindcomponents.com/component/saas-landing-page/landing#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+
+          <button
+            class="bg-blue-600 text-white font-semibold self-stretch py-2 px-4 rounded"
+          >
+            Get Started
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="components pt-6 pb-10">
+        <div
+          class="container max-w-6xl mx-auto flex flex-col items-center px-8"
+        >
+          <h1
+            class="text-center font-bold text-4xl max-w-lg text-slate-900 mb-6"
+          >
+            Building Your Next App with our Awesome components
+          </h1>
+
+          <p class="text-center max-w-xl text-slate-500 mb-5">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
+            similique obcaecati illum mollitia.
+          </p>
+
+          <button
+            class="bg-blue-600 text-white font-semibold py-2 px-4 rounded mb-3"
+          >
+            Start 14-Day Free Trial
+          </button>
+          <p class="text-slate-400 mb-9">No credit card required</p>
+
+          <img
+            class="overflow-hidden components__img object-cover object-center w-8/12 rounded-lg"
+            src="./img/components-img.jpg"
+            alt="components img"
+            width="1152"
+          />
+        </div>
+      </section>
+
+      <section class="portfolio pt-10 pb-10">
+        <div class="container px-8 flex flex-col items-center">
+          <h2 class="text-center text-4xl font-semibold mb-4 text-slate-900">
+            Portfolio
+          </h2>
+
+          <p class="text-slate-500 text-center mb-8">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum
+            quam voluptatibus
+          </p>
+
+          <ul
+            class="flex flex-col md:flex-row md:flex-nowrap flex-wrap items-start gap-5"
+          >
+            <li class="max-w-[460px] overflow-hidden">
+              <img
+                class="rounded-lg w-[460px] min-h-[400px] object-cover max-h-[480px] overflow-hidden h"
+                src="./img/website.avif"
+                alt=""
+              />
+
+              <h3 class="my-3 text-2xl">Best Website Collections</h3>
+
+              <p class="text-xl text-sky-500">WEBSITE</p>
+            </li>
+            <li class="max-w-[460px] overflow-hidden">
+              <img
+                class="rounded-lg w-[460px] h-[400px] object-cover max-h-[480px] overflow-hidden h"
+                src="./img/human.avif"
+                alt=""
+              />
+
+              <h3 class="my-3 text-2xl">Block Of Ui Kit Collections</h3>
+
+              <p class="text-xl text-sky-500">UI KIT</p>
+            </li>
+            <li class="max-w-[460px] overflow-hidden">
+              <img
+                class="rounded-lg w-[460px] min-h-[400px] object-cover max-h-[480px] overflow-hidden h"
+                src="./img/mockup.avif"
+                alt=""
+              />
+
+              <h3 class="my-3 text-2xl">Ton's Of Mobile Mockup</h3>
+
+              <p class="text-xl text-sky-500">MOCKUPS</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="team bg-slate-100">
+        <div class="container w-full mx-auto px-8 py-10 flex flex-col items-center">
+          <h2 class="text-center text-4xl font-semibold  text-slate-900 mb-4">The Executive Team</h2>
+
+          <ul class="flex items-center gap-1 mb-4">
+            <li class="bg-sky-600 w-[150px] h-[4px] rounded-lg"></li>
+            <li class="bg-sky-600 w-[25px] h-[4px] rounded-lg"></li>
+            <li class="bg-sky-600 w-[10px] h-[4px] rounded-lg"></li>
+          </ul>
+
+          <p class="max-w-[655px] mb-20 text-center text-slate-500">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+            incidunt ex placeat modi magni quia error alias, adipisci rem
+            similique, at omnis eligendi optio eos harum.
+          </p>
+
+          <ul
+            class="flex flex-col md:flex-row md:flex-nowrap flex-wrap items-start gap-5"
+          >
+            <li class="max-w-[460px] overflow-hidden border p-6 rounded-lg flex flex-col items-center">
+              <img
+                class="rounded-lg w-[440px] min-h-[400px] object-cover h-[420px] overflow-hidden h"
+                src="./img/arthur.avif"
+                alt=""
+              />
+
+              <h3 class="my-3 text-2xl">Arthur Melo</h3>
+
+              <p class="text-lg text-slate-600 mb-3">Design Director</p>
+
+              <ul class="flex gap-5 opacity-70">
+                <li>
+                    <img src="./img/facebook.png" alt="facebook logo" width="20" height="20">
+                </li>
+                <li>
+                    <img src="./img/facebook.png" alt="facebook logo" width="20" height="20">
+                </li>
+                <li>
+                    <img src="./img/facebook.png" alt="facebook logo" width="20" height="20">
+                </li>
+              </ul>
+            </li>
+            <li class="max-w-[460px] overflow-hidden border p-6 rounded-lg flex flex-col items-center">
+              <img
+                class="rounded-lg w-[440px] h-[400px] object-cover h-[420px] overflow-hidden h"
+                src="./img/pamela.avif"
+                alt=""
+              />
+
+              <h3 class="my-3 text-2xl">Pamela Anderson</h3>
+
+              <p class="text-lg text-slate-600 mb-3">Lead Developer</p>
+
+              <ul class="flex gap-5 opacity-70">
+                <li>
+                    <img src="./img/facebook.png" alt="facebook logo" width="20" height="20">
+                </li>
+                <li>
+                    <img src="./img/facebook.png" alt="facebook logo" width="20" height="20">
+                </li>
+                <li>
+                    <img src="./img/facebook.png" alt="facebook logo" width="20" height="20">
+                </li>
+              </ul>
+            </li>
+            <li class="max-w-[460px] overflow-hidden border p-6 rounded-lg flex flex-col items-center">
+              <img
+                class="rounded-lg w-[440px] min-h-[400px] object-cover h-[420px] overflow-hidden h"
+                src="./img/john.avif"
+                alt=""
+              />
+
+              <h3 class="my-3 text-2xl">John Doe</h3>
+
+              <p class="text-lg text-slate-600 mb-3">Full Stack Developer</p>
+
+              <ul class="flex gap-5 opacity-70">
+                <li>
+                    <img src="./img/facebook.png" alt="facebook logo" width="20" height="20">
+                </li>
+                <li>
+                    <img src="./img/facebook.png" alt="facebook logo" width="20" height="20">
+                </li>
+                <li>
+                    <img src="./img/facebook.png" alt="facebook logo" width="20" height="20">
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/styles.js"></script>
+  </body>
+</html>

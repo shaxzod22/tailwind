@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header__modal.burger{
+    display: block !important;
+}
+
+.components__img{
+    width: 1152px !important;
+    height: 380px !important; 
+    display: inline-block;
+    margin-bottom: 9px;
+}
